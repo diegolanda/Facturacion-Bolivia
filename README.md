@@ -13,13 +13,17 @@ Para poder generar el Codigo de Control necesitas realizar lo siguiente:
 
 C#
 --
+Generar un Codigo de Control:
 <code>
 CodigoDeControl.Instancia.Generar(string autorizacion, string numero, string nitci, string fecha, string monto, string llave);
+</code>
 
-//Ejm
+Ejemplo:
 
+<code>
 CodigoDeControl.Instancia.Generar("7904006306693", "876814", "1665979", "20080519", "35958.60", @"zZ7Z]xssKqkEf_6K9uH(EcV+%x+u[Cca9T%+_$kiLjT8(zr3T9b5Fx2xG-D+_EBS");
 </code>
+
 
 Aportes
 =======
